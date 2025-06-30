@@ -3,7 +3,6 @@ import streamlit as st
 import smtplib
 import random
 import os
-from dotenv import load_dotenv    # pip install dotenv
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 load_dotenv()
