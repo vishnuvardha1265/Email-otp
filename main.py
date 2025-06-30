@@ -5,7 +5,6 @@ import random
 import os
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-load_dotenv()
 
 # loading environment variables
 EMAIL = st.secrets["EMAIL_USER"]
